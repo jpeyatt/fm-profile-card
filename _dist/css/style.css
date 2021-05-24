@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.125em;
+  color: #2d3248;
+  background-color: #19a2ae;
+  background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
+  background-position: top -489px left -489px, bottom -489px right -489px;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card {
+  width: 350px;
+  height: 380px;
+  background-color: white;
+  border-radius: 12px;
+  position: relative;
+  -webkit-box-shadow: 0px 0px 24px rgba(44, 44, 44, 0.3);
+          box-shadow: 0px 0px 24px rgba(44, 44, 44, 0.3);
+}
+
+.card-header {
+  border-radius: 12px 12px 0 0;
+  height: 194px;
+  background-image: url("/images/bg-pattern-card.svg");
+  background-size: 100% 140px;
+  background-repeat: no-repeat;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card-header img {
+  position: absolute;
+  margin: auto;
+  bottom: 0;
+  border-radius: 50%;
+  border: 6px white solid;
+}
+
+.card-main-content {
+  padding: 20px 0 12px 0;
+}
+
+.card-main-content .user-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card-main-content .user-info .name {
+  font-weight: 800;
+}
+
+.card-main-content .user-info .age {
+  font-weight: 300;
+  padding-left: 12px;
+  color: #969696;
+}
+
+.card-main-content .location {
+  color: #969696;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 0 12px 0;
+  font-size: 0.9em;
+}
+
+.card-footer {
+  border-top: 1px solid rgba(150, 150, 150, 0.4);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 22px;
+}
+
+.card-footer .footer-item {
+  text-align: center;
+}
+
+.card-footer .footer-item div:first-child {
+  font-weight: 800;
+  padding-bottom: 8px;
+}
+
+.card-footer .footer-item div:last-child {
+  font-size: 0.73em;
+  color: #969696;
+}
+
+.attribution {
+  font-size: 0.85em;
+  text-align: center;
+  color: #f0f0f0;
+  padding-bottom: 8px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+}
+
+.attribution > * {
+  padding: 6px;
+}
+
+.attribution a {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: opacity ease-in-out .2s;
+  transition: opacity ease-in-out .2s;
+}
+
+.attribution a:hover {
+  opacity: 0.7;
+}
+/*# sourceMappingURL=style.css.map */
