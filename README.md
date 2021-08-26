@@ -15,7 +15,7 @@ This is a perfect challenge to test your layout skills. The card layout doesn't 
 ![Screenshot](https://github.com/jpeyatt/fm-profile-card/blob/master/screenshot.png)
 
 ### Links
-- Live Site URL: [Add live site URL here](jp-fm-profile-card.netlify.app)
+- Live Site URL: [Demo](https://jp-fm-profile-card.netlify.app/)
 ### Built with
 
 - Semantic HTML5 markup
@@ -25,7 +25,7 @@ This is a perfect challenge to test your layout skills. The card layout doesn't 
 
 ## Author
 
-- Website - [Justin Peyatt](https://www.jpeyatt.com)
+- Website - [Justin Peyatt](https://justinpeyatt.netlify.app)
 - Frontend Mentor - [@jpeyatt](https://www.frontendmentor.io/profile/jpeyatt)
 - LinkedIn - [@justinpeyatt](https://www.linkedin.com/in/justinpeyatt)
 
